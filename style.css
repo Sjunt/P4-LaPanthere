@@ -41,11 +41,9 @@ a:hover {
 
 .citation{
     font-size: 18px;
-    font-weight: bold;
 }
-.citation>em{
-    color: grey;
-    font-weight: 100;
+.citation>span{
+    font-weight: bold;
 }
 .bloc .container {
     padding-left: 0;
@@ -457,6 +455,10 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
+.fa-chevron-up{
+    color: #FFFFFF!important;
+}
+
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
@@ -524,7 +526,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
