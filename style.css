@@ -43,7 +43,8 @@ a:hover {
     font-size: 18px;
 }
 .citation>span{
-    font-weight: bold;
+    font-weight: 900;
+    color: black;
 }
 .bloc .container {
     padding-left: 0;
@@ -839,7 +840,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1043,6 +1044,17 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .social{
+        display: flex;
+        place-content: space-evenly;
+    }
+    .img-responsive{
+        margin: auto; 
+    }
+    .row{
+        text-align: -webkit-center;
+    }
+      
 }
 
 @media (max-width: 400px) {
